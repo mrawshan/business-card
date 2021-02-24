@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+body {
+  background: url(../images/background_mobile.svg) no-repeat center center fixed;
+  background-size: cover;
+  font-size: 1.2em;
+}
+
+.container {
+  position: relative;
+}
+
+.container h2.hr-line-before {
+  margin-bottom: 1.3em;
+  margin-left: 2em;
+}
+
+.container h2.hr-line-before:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  margin-top: 0.6em;
+  border-bottom: 1px solid black;
+  width: 1.5em;
+}
+
+section.introduction p {
+  line-height: 1.4;
+}
+
+section.introduction .hello {
+  color: #1e9d9d;
+}
+
+section.introduction .name {
+  font-family: 'Reggae One', cursive;
+  font-size: 3em;
+}
+
+section.introduction .ux {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+section.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+section.image-box .container {
+  position: relative;
+}
+
+section.image-box .container img {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-size: contain;
+  width: 300px;
+  z-index: -1;
+}
+
+section.find-me {
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+section.find-me .container {
+  text-align: center;
+}
+
+section.find-me h2 {
+  display: inline;
+}
+
+section.find-me h2:after {
+  content: '';
+  position: absolute;
+  margin-top: 0.6em;
+  margin-left: 0.4em;
+  border-bottom: 1px solid white;
+  width: 1.5em;
+}
+
+section.find-me div.icon {
+  display: inline;
+  margin-left: 4em;
+}
+
+section.find-me div.icon a {
+  margin: 0.3em;
+}
+/*# sourceMappingURL=main.css.map */

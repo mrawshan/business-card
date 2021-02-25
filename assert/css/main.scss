@@ -8,7 +8,6 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	font-size: calc(15px + 0.4vw);
-	overflow: hidden;
 }
 
 // Horizontal line befor the h2 tag
@@ -77,6 +76,7 @@ section.find-me {
 	position: fixed;
 	width: 100%;
 	bottom: 0;
+	left: 0;
 
 	.container {
 		text-align: center;
@@ -101,30 +101,6 @@ section.find-me {
 
 		a {
 			margin: 0.3em;
-		}
-	}
-}
-
-@media screen and (min-width: 320px) {
-	section.image-box {
-		img {
-			width: 230px;
-		}
-	}
-}
-
-@media screen and (min-width: 375px) {
-	section.image-box {
-		img {
-			width: 300px;
-		}
-	}
-}
-
-@media screen and (min-width: 414px) {
-	section.image-box {
-		img {
-			width: 350px;
 		}
 	}
 }

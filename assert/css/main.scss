@@ -66,8 +66,9 @@ section.image-box {
 			right: -2em;
 			bottom: 0;
 			background-size: contain;
-			max-height: 200vw;
-			max-width: 100vw;
+			max-width: 100%;
+			height: auto;
+			width: auto\9;
 			z-index: -1;
 		}
 	}

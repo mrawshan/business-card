@@ -1,0 +1,152 @@
+html,
+body {
+	height: 100%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background: url(../images/background_image.svg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+// Horizontal line befor the h2 tag
+div.intro,
+div.contact {
+	position: relative;
+}
+
+h2.hr-line {
+	margin-left: 2em;
+
+	&:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		margin-top: 0.6em;
+		border-bottom: 1px solid black;
+		width: 1.5em;
+	}
+}
+
+// ********** Introduction and Contact details column ********** //
+// Introduction div
+.intro-contact-column {
+	position: relative;
+
+	.intro {
+		position: absolute;
+		top: 3em;
+	}
+
+	.contact {
+		position: absolute;
+		bottom: 3em;
+	}
+
+	.intro {
+		line-height: 1;
+
+		h2 {
+			margin-bottom: 3em;
+		}
+
+		.hello {
+			color: #1e9d9d;
+		}
+
+		.name {
+			font-family: 'Asul', sans-serif;
+			font-size: 5em;
+		}
+
+		.ux {
+			font-size: 1.5em;
+			font-weight: 700;
+		}
+	}
+
+	// Contact div
+	.contact {
+		* {
+			color: white;
+			text-decoration: none;
+		}
+
+		h2.hr-line {
+			&:before {
+				border-bottom: 1px solid white;
+			}
+		}
+
+		h2 {
+			margin-bottom: 2em;
+		}
+
+		.email {
+			display: inline-block;
+			margin-right: 2em;
+		}
+
+		.phone {
+			display: inline-block;
+		}
+	}
+}
+
+// Imgae column
+.img-column {
+	position: relative;
+	img {
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+}
+
+// Find me on column
+.find-me-column {
+	div.icon {
+		position: relative;
+
+		* {
+			color: white;
+		}
+
+		h2.hr-line-after {
+			writing-mode: vertical-rl;
+			margin: 0;
+			margin-bottom: 3em;
+
+			&::before {
+				content: '';
+				position: absolute;
+				margin-top: 6em;
+				border-bottom: 1px solid white;
+				transform: rotate(90deg); /* IE 9 */
+
+				width: 1.5em;
+			}
+		}
+		img {
+			display: block;
+			margin-bottom: 1.5em;
+		}
+	}
+}
+
+// Positioning the find me on column's icon div
+.find-me-column {
+	position: relative;
+
+	div.icon {
+		position: absolute;
+		bottom: 3em;
+		left: 9em;
+	}
+}

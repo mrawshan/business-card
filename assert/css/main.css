@@ -1,0 +1,142 @@
+html,
+body {
+  height: 100%;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: url(../images/background_image.svg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+div.intro,
+div.contact {
+  position: relative;
+}
+
+h2.hr-line {
+  margin-left: 2em;
+}
+
+h2.hr-line:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  margin-top: 0.6em;
+  border-bottom: 1px solid black;
+  width: 1.5em;
+}
+
+.intro-contact-column {
+  position: relative;
+}
+
+.intro-contact-column .intro {
+  position: absolute;
+  top: 3em;
+}
+
+.intro-contact-column .contact {
+  position: absolute;
+  bottom: 3em;
+}
+
+.intro-contact-column .intro {
+  line-height: 1;
+}
+
+.intro-contact-column .intro h2 {
+  margin-bottom: 3em;
+}
+
+.intro-contact-column .intro .hello {
+  color: #1e9d9d;
+}
+
+.intro-contact-column .intro .name {
+  font-family: 'Asul', sans-serif;
+  font-size: 5em;
+}
+
+.intro-contact-column .intro .ux {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.intro-contact-column .contact * {
+  color: white;
+  text-decoration: none;
+}
+
+.intro-contact-column .contact h2.hr-line:before {
+  border-bottom: 1px solid white;
+}
+
+.intro-contact-column .contact h2 {
+  margin-bottom: 2em;
+}
+
+.intro-contact-column .contact .email {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+.intro-contact-column .contact .phone {
+  display: inline-block;
+}
+
+.img-column {
+  position: relative;
+}
+
+.img-column img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.find-me-column div.icon {
+  position: relative;
+}
+
+.find-me-column div.icon * {
+  color: white;
+}
+
+.find-me-column div.icon h2.hr-line-after {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  margin: 0;
+  margin-bottom: 3em;
+}
+
+.find-me-column div.icon h2.hr-line-after::before {
+  content: '';
+  position: absolute;
+  margin-top: 6em;
+  border-bottom: 1px solid white;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  /* IE 9 */
+  width: 1.5em;
+}
+
+.find-me-column div.icon img {
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+.find-me-column {
+  position: relative;
+}
+
+.find-me-column div.icon {
+  position: absolute;
+  bottom: 3em;
+  left: 9em;
+}
+/*# sourceMappingURL=main.css.map */
